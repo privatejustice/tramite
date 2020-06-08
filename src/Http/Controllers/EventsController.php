@@ -1,11 +1,11 @@
 <?php
 
-namespace Siravel\Http\Controllers\Features\Calendar;
+namespace Tramite\Http\Controllers\Features\Calendar;
 
-use Siravel\Http\Controllers\Controller;
-use Siravel\Services\EventService;
-use Siravel\Repositories\EventRepository;
-use Siravel\Http\Controllers\Features\Controller as BaseController;
+use Tramite\Http\Controllers\Controller;
+use Tramite\Services\EventService;
+use Tramite\Repositories\EventRepository;
+use Tramite\Http\Controllers\Features\Controller as BaseController;
 
 class EventsController extends BaseController
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Siravel\Http\Controllers;
+namespace Tramite\Http\Controllers;
 
 use InfyOm\Generator\Utils\ResponseUtil;
 use Response;

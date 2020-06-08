@@ -1,6 +1,6 @@
 <?php
 
-namespace Siravel\Http\Controllers;
+namespace Tramite\Http\Controllers;
 
 use Carbon\Carbon;
 use Illuminate\Http\Request;
@@ -20,7 +20,7 @@ class ApiController extends SitecController
         $this->modelName = str_singular($url);
 
         if (! empty($this->modelName)) {
-            $this->model = app('Siravel\Models\\'.$this->getFeature($this->modelName).'\\'.ucfirst($this->modelName));
+            $this->model = app('Tramite\Models\\'.$this->getFeature($this->modelName).'\\'.ucfirst($this->modelName));
         }
     }
 

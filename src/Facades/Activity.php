@@ -1,6 +1,6 @@
 <?php
 
-namespace Siravel\Facades;
+namespace Tramite\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
