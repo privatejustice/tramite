@@ -10,6 +10,8 @@ use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Str;
+use Illuminate\Routing\Router;
+use Illuminate\Support\Facades\Route;
 
 class TramiteProvider extends ServiceProvider
 {
