@@ -1,11 +1,27 @@
 {
     "name": "privatejustice/tramite",
     "description": "Tramite para ajudar no desenvolvimento da justiça privada",
-    "license": "MIT",
+    "type": "library",
+    "keywords": [
+        "ancapistao",
+        "private",
+        "justice",
+        "private-justice",
+        "tramite"
+    ],
+    "license": "ANCAP",
+    "homepage": "https://privatejustice.com/packages/tramite",
+    "support": {
+        "email": "help@privatejustice.com.br",
+        "issues": "https://github.com/privatejustice/tramite/issues",
+        "source": "https://github.com/privatejustice/tramite",
+        "docs": "https://github.com/privatejustice/tramite/blob/master/README.md"
+    },
     "authors": [
         {
-            "name": "Ricardo Rebello Sierra",
-            "email": "ricardo@sierratecnologia.com.br"
+            "name": "Private Justice",
+            "homepage": "https://privatejustice.com.br",
+            "email": "contributing@privatejustice.com.br"
         }
     ],
     "require": {
