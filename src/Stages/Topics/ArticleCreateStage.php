@@ -8,7 +8,7 @@ use Tramite\Conectors\Pipeline as PipelineComponent;
 
 use Tramite\Routines\Contracts\Registrator;
 use Tramite\Routines\Contracts\Notificator;
-use Support\Contracts\Runners\Stage as StageBase;
+use Operador\Contracts\Stage as StageBase;
 
 class ArticleCreateStage implements StageInterface
 {

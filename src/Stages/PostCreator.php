@@ -4,7 +4,7 @@ namespace Tramite\Tramites;
 
 use Log;
 use App\Models\User;
-use Support\Contracts\Runners\PipelineBuilder as PipelineBuilderBase;
+use Operador\Contracts\PipelineBuilder as PipelineBuilderBase;
 use App\Pipelines\Contracts\Registrator;
 use App\Pipelines\Contracts\Notificator;
 

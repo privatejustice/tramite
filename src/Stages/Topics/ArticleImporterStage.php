@@ -6,7 +6,7 @@ use Tramite\Conectors\Pipeline as PipelineComponent;
 
 use Tramite\Contracts\Registrator;
 use Tramite\Contracts\Notificator;
-use Support\Contracts\Runners\Stage as StageBase;
+use Operador\Contracts\Stage as StageBase;
 
 class ArticleImporterStage extends StageBase
 {

@@ -5,7 +5,7 @@
 
 namespace Tramite\Tramites;
 
-use Support\Contracts\Runners\PipelineBuilder as PipelineBuilderBase;
+use Operador\Contracts\PipelineBuilder as PipelineBuilderBase;
 use League\Pipeline\StageInterface;
 use League\Pipeline\PipelineBuilder;
 

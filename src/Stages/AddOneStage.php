@@ -2,7 +2,7 @@
 
 namespace Tramite\Tramites;
 
-use Support\Contracts\Runners\Stage as StageBase;
+use Operador\Contracts\Stage as StageBase;
 
 class AddOneStage extends StageBase
 {
