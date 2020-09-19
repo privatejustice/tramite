@@ -20,7 +20,7 @@ class TopicFiredForTargetListener
     /**
      * Register the listeners for the subscriber.
      *
-     * @param  \Illuminate\Events\Dispatcher  $events
+     * @param \Illuminate\Events\Dispatcher $events
      */
     public function subscribe($events)
     {
@@ -38,7 +38,7 @@ class TopicFiredForTargetListener
     /**
      * Handle the event.
      *
-     * @param  \App\Events\BusinessNewRegister  $event
+     * @param  \App\Events\BusinessNewRegister $event
      * @return void
      */
     public function handle(BusinessNewRegister $event)
@@ -57,8 +57,8 @@ class TopicFiredForTargetListener
     /**
      * Handle a job failure.
      *
-     * @param  \App\Events\OrderShipped  $event
-     * @param  \Exception  $exception
+     * @param  \App\Events\OrderShipped $event
+     * @param  \Exception               $exception
      * @return void
      */
     public function failed(OrderShipped $event, $exception)

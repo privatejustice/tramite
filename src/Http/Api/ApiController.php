@@ -27,7 +27,7 @@ class ApiController extends SitecController
     /**
      * Find an item in the API
      *
-     * @param  int $id
+     * @param int $id
      *
      * @return mixed
      */
@@ -65,7 +65,7 @@ class ApiController extends SitecController
     /**
      * Search for the API Item
      *
-     * @param  string $term
+     * @param string $term
      *
      * @return array
      */

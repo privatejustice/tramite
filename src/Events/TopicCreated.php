@@ -14,7 +14,7 @@ class TramiteShipped
     /**
      * Create a new event instance.
      *
-     * @param  \App\Tramite  $tramite
+     * @param  \App\Tramite $tramite
      * @return void
      */
     public function __construct(Tramite $tramite)
