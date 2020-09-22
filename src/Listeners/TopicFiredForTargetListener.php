@@ -2,9 +2,9 @@
 
 namespace Tramite\Listeners;
 
-use Tramite\Events\BusinessNewRegister;
+use Siravel\Events\BusinessNewRegister;
 use Facilitador\Models\Notification;
-use Tramite\Services\System\BusinessService;
+use Siravel\Services\BusinessService;
 
 class TopicFiredForTargetListener
 {
