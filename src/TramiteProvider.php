@@ -36,7 +36,7 @@ class TramiteProvider extends ServiceProvider
         // $this->loadViewsFrom(__DIR__.'/../resources/views', 'tramite');
         // $this->publishes(
         //     [
-        //     $viewsPath => base_path('resources/views/vendor/tramite'),
+        //     $viewsPath => base_path('resources'.DIRECTORY_SEPARATOR.'views'.DIRECTORY_SEPARATOR.'vendor'.DIRECTORY_SEPARATOR.'tramite'),
         //     ], 'views'
         // );
 
