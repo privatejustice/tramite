@@ -30,7 +30,7 @@ class TramiteProvider extends ServiceProvider
     {
         
         // Register Migrations
-        $this->loadMigrationsFrom(__DIR__.'/../database/tramite');
+        $this->loadMigrationsFrom(__DIR__.DIRECTORY_SEPARATOR.'..'.DIRECTORY_SEPARATOR.'database'.DIRECTORY_SEPARATOR.'tramite');
 
         // // View namespace
         // $this->loadViewsFrom(__DIR__.'/../resources/views', 'tramite');
