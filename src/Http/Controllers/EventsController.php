@@ -16,7 +16,7 @@ class EventsController extends BaseController
         $this->eventsRepository = $eventsRepo;
         $this->eventService = $eventService;
 
-        if (!in_array('events', \Illuminate\Support\Facades\Config::get('cms.active-core-features'))) {
+        if (!in_array('events', \Illuminate\Support\Facades\Config::get('siravel.active-core-features'))) {
             return redirect('/')->send();
         }
     }
