@@ -26,7 +26,7 @@ use App\Pipelines\Contracts\Notificator;
 
 class NotificationEmail
 {
-    public function notification(Notificator $something)
+    public function notification(Notificator $something): Notificator
     {
         echo 'notification ' . $something . '<br>';
         return $something;

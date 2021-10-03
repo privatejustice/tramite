@@ -21,8 +21,10 @@ class TopicFiredForTargetListener
      * Register the listeners for the subscriber.
      *
      * @param \Illuminate\Events\Dispatcher $events
+     *
+     * @return void
      */
-    public function subscribe($events)
+    public function subscribe($events): void
     {
         $events->listen(
             'Illuminate\Auth\Events\Login',
@@ -38,7 +40,8 @@ class TopicFiredForTargetListener
     /**
      * Handle the event.
      *
-     * @param  \App\Events\BusinessNewRegister $event
+     * @param BusinessNewRegister $event
+     *
      * @return void
      */
     public function handle(BusinessNewRegister $event)
@@ -57,8 +60,9 @@ class TopicFiredForTargetListener
     /**
      * Handle a job failure.
      *
-     * @param  \App\Events\OrderShipped $event
-     * @param  \Exception               $exception
+     * @param OrderShipped $event
+     * @param \Exception               $exception
+     *
      * @return void
      */
     public function failed(OrderShipped $event, $exception)
