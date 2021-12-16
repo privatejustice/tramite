@@ -1,6 +1,6 @@
 <?php
 
-namespace Tramite\Http\Controllers\Features\Calendar;
+namespace Tramite\Http\Controllers;
 
 use Tramite\Http\Controllers\Controller;
 use Tramite\Services\EventService;

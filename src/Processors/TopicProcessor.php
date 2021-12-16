@@ -1,6 +1,6 @@
 <?php
 
-namespace Tramite\Stats;
+namespace Tramite\Processors;
 
 use Log;
 use App\Models\User;
@@ -22,7 +22,7 @@ use Tramite\Components\Post;
 use Tramite\Components\Profile;
 use Tramite\Components\Relation;
 
-class NewPhotoPipeline
+class TopicProcessor
 {
     
     /**
