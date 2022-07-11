@@ -1,9 +1,5 @@
 <?php
-/**
- * 
- */
-
-namespace Tramite\Tramites;
+namespace Tramite\Stages;
 
 use Operador\Contracts\PipelineBuilder as PipelineBuilderBase;
 use League\Pipeline\StageInterface;

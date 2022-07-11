@@ -1,6 +1,5 @@
 <?php
-
-namespace Tramite\Readables;
+namespace Tramite\Stages\Topics;
 
 use Tramite\Conectors\Pipeline as PipelineComponent;
 

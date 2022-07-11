@@ -1,6 +1,5 @@
 <?php
-
-namespace Tramite\Readables;
+namespace Tramite\Stages\Topics;
 
 use League\Pipeline\Pipeline as PipelineBase;
 use League\Pipeline\StageInterface;
