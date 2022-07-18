@@ -1,6 +1,6 @@
 <?php
 
-namespace Tramite\Tramites;
+namespace Tramite\Stagea;
 
 use Operador\Contracts\Stage as StageBase;
 
