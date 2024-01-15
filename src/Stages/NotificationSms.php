@@ -1,5 +1,5 @@
 <?php
-namespace Tramite\Tramites;
+namespace Tramite\Stages;
 
 use Log;
 use App\Models\User;
